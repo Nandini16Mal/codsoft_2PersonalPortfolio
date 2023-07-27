@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif ;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: wheat;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto ;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none ;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: wavy;
+    color: rgb(116, 17, 6);
+    font-weight: bolder;
+}
+
+nav ul li a:hover{
+    color: rgb(5, 124, 145);
+}
+
+.detail{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.detail h1{
+    font-size: 50px;
+    color: rgb(28, 23, 23);
+    margin-bottom: 20px;
+}
+
+span{
+    color: rgb(127, 22, 143) ;
+}
+
+.detail p{
+    color: rgb(5, 81, 81);
+    line-height: 22px;
+}
+
+.detail a{
+    background: grey;
+    padding: 10px 18px ;
+    text-decoration:double;
+    font-weight: bold;
+    color: aliceblue;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 25px ;
+}
+
+.images{
+    width:45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 95%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .girl{
+    left:45%
+}
+
+.detail a:hover{
+    background: white;
+    color: rgb(29, 13, 2);
+    transform: scale(1.2);
+}
+
+.logo{
+    background-repeat:no-repeat ;
+}
+
+.about{
+    width: 100%;
+    padding:100px 0px ;
+    background-color: wheat;
+}
+
+.about img{
+    height:auto;
+    width: 430px;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space space-around ;
+}
+
+.about-text h2{
+    color: aliceblue;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    color: rgb(3, 34, 61);
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom:25px;
+    text-transform: capitalize;
+}
+
+.about-text p{
+    color: rgba(111, 6, 111, 0.8);
+    letter-spacing: 1px;
+    line-height:28px ;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+button{
+    background-color: grey;
+    color: black;
+    text-decoration: solid;
+    border:2px solid transparent;
+    font-weight: bolder;
+    padding: 13px 30px;
+    border-radius: 60px;
+    transition: .4s;
+}
+
+button:hover{
+    background-color: transparent;
+    border: 10px solid grey;
+}
+
+.skills{
+    background: wheat;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2 {
+    color: #fdf9f9;
+    font-size: 80px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card{
+    height: 50px;
+    width: 200px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+h5{
+    color: #fdf9f9;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.pra p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.projects{
+    background: wheat;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.titles h2 {
+    color: #fdf9f9;
+    font-size: 80px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.cards{
+    height: 80px;
+    width: 200px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+h5{
+    color: #fdf9f9;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.prah p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+
+.contact{
+    background: wheat;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.titles1 h2 {
+    color: #fdf9f9;
+    font-size: 80px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.boxes1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.cards1{
+    height: 80px;
+    width: 300px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+h5{
+    color: #fdf9f9;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.prah1 p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
